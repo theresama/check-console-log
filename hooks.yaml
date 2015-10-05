@@ -1,0 +1,7 @@
+-   id: check-console-log
+    name: Check console.log()
+    description: "Searches js files for console.log() statements"
+    entry: check-console-log
+    language: node
+    files: \.js$
+    args: [-i]

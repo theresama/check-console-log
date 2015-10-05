@@ -1,0 +1,18 @@
+{
+  "name": "check-console-log",
+  "version": "1.0.0",
+  "description": "Checks for files trying to commit console.log()",
+  "main": "check-console-log.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "check-console-log" : "./bin/check-console-log"
+  }
+  "dependencies": {
+    "esprima": "latest",
+    "estraverse": "latest",
+  }
+}
